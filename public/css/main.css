@@ -1,0 +1,98 @@
+@font-face {
+    font-family: politica;
+    src: url("../font/Sudtipos_Politica_Bold.otf");
+  }
+
+html,
+body{
+    font-family: politica;
+}
+
+body{
+    height: 200%;
+    width: 200%;
+    background: url("../img/FONDO_3.jpg") no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+.row1{
+    margin-top: 6vh;
+}
+
+.row2{
+    margin-top: 3vh;
+    font-size: 30px;
+}
+
+.formUser{
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 3vh;
+    height: 6vh;
+    border-radius:999px;
+    text-align: center;
+    width: 30%;
+}
+
+.formPassword{
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 3vh;
+    height: 6vh;
+    border-radius:999px;
+    text-align: center;
+    width: 30%;
+}
+
+.formSubmit{
+    margin: 0 auto;
+    margin-top: 3vh;
+    height: 6vh;
+    border-radius:999px;
+    text-align: center;
+    width: 18%;
+}
+
+.rowS{
+    margin-top: 3vh;
+}
+
+.rowF{
+    margin: 0 auto;
+    width: 300px;
+}
+
+@media only screen and (max-width: 440px) {
+    .row2 {
+        font-size: 14px;
+    }
+
+    .formUser{
+        width: 50%;
+    }
+    
+    .formPassword{
+        width: 50%;
+    }
+    
+    .formSubmit{
+        width: 25%;
+    }
+
+    .rowF{
+        margin: 0 auto;
+        width: 200px;
+    }
+
+  }
+
+::placeholder {
+    color: white !important;
+}
+
+a{
+    text-decoration: none !important;
+}
